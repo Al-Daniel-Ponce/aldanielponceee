@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;}
+html{font-size: 62.5%;}
+body{background-color: rgb(0, 0, 0); color: white;}
+.bgblr{
+  background-image: url("gallerywallpaperp3.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  filter: blur(7px);}
+header{
+    background-color: rgb(0, 0, 0, 0.3);
+    margin-top: 5x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex;}
+.logo{
+    font-size: 4rem;
+    color: #8492fd;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-shadow: 0  0 25px #ffffff;
+    background: linear-gradient(90deg, #2f46fa, #55fc77, #fb41da, #7e2de8);
+   -webkit-text-fill-color: transparent;
+    background-size: 400%;
+   -webkit-background-clip: text;
+animation: neon 5s infinite linear;}
+@keyframes neon {0% {background-position: 0%;}100% {background-position: 400%;}  }
+.logo:hover{transform: scale(1.1);}
+.events{
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;}
+.nav_link{color: #fff}
+.ead a:hover, .ead a.active{
+    color: #544bb7;
+    border-bottom: 2px solid #396e9b;
+    text-shadow: 0 0 25px #d9dfed;}
+.downbtn {
+  top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;}
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;}
+  .svgIcon path {
+    fill: white; }
+  .downbtn:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(181, 160, 255);
+    align-items: center;
+    margin-right: -50px; }
+  .downbtn:hover .svgIcon {
+    transition-duration: 0.3s;
+    transform: translateY(-200%);}
+  .downbtn::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back Favorites";
+    color: white;
+    font-size: 0px;}
+  .downbtn:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    transition-duration: 0.3s;}
+  .allpotos{
+    align-content: center;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 25%;
+    margin-left: 5%;}
+   .allpoto2{
+    align-content: center;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 25%;
+    margin-left: 5%;
+    margin-top: 550px;}
+  .photo1 h1{
+    position: absolute;
+    top: 510px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 90px;}
+  .photo1 img{
+    box-shadow: 0 0 50px #000000;
+    height:300px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0, 0, 25px black;
+    position: absolute;
+    top: 200px;}
+.photog1{
+    opacity: 0;
+    transition: 0.5s ease;}
+.photog1:hover{
+    opacity: 1;
+    cursor: pointer;}
+.photo2 h1{
+  position: absolute;
+  top: 510px;
+  font-size: 20px;
+  margin-left: 120px;}
+.photo2 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;
+  top: 200px;}
+.photog2{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog2:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo3 h1{
+  position: absolute;
+  top: 510px;
+  font-size: 20px;
+  margin-left: 75px;}
+.photo3 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;
+  top: 200px;}
+.photog3{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog3:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo4 h1{
+  position: absolute;
+  top: 510px;
+  font-size: 20px;
+  margin-left: 110px;}
+.photo4 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;
+  top: 200px;}
+.photog4{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog4:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo5 h1{
+  position: absolute;
+  top: 710px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 150px;}
+.photo5 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;}
+.photog5{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog5:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo6 h1{
+  position: absolute;
+  top: 710px;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 150px;}
+.photo6 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;}
+.photog6{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog6:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo7 h1{
+  position: absolute;
+  top: 710px;
+  font-size: 20px;
+  margin-left: 135px;
+  margin-top: 150px;}
+.photo7 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;}
+.photog7{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog7:hover{
+  opacity: 1;
+  cursor: pointer;}
+.photo8 h1{
+  position: absolute;
+  top: 710px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 150px;}
+.photo8 img{
+  box-shadow: 0 0 50px #000000;
+  height:300px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0, 0, 25px black;
+  position: absolute;}
+.photog8{
+  opacity: 0;
+  transition: 0.5s ease;}
+.photog8:hover{
+  opacity: 1;
+  cursor: pointer;}
